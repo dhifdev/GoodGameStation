@@ -135,3 +135,12 @@ a {
   border: none;
   transition: 0.3s;
 }
+
+.profile-container {
+  width: 100%;
+  max-width: 72rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto  ;
+}
