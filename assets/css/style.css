@@ -92,3 +92,46 @@
   display: flex;
   gap: 3rem;
 }
+
+.main-content {
+  width: 300px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.main-content h3 {
+  margin-top: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.main-content p {
+  margin-bottom: 1rem;
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  width: 100px;
+  height: 25px;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(131, 131, 235);
+  border: none;
+  transition: 0.3s;
+}
