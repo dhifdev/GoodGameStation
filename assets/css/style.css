@@ -104,6 +104,10 @@
   margin-bottom: 0.5rem;
 }
 
+.main-nav {
+  margin-left: 20px;
+}
+
 .main-content p {
   margin-bottom: 1rem;
 }
@@ -121,6 +125,10 @@
   border-radius: 10px;
   background-color: white;
   transition: 0.3s;
+}
+
+#right-menu {
+  margin-right: 20px;
 }
 
 a {
